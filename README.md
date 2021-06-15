@@ -16,7 +16,7 @@ mvn clean test
 
 ### 1. Calculator Exercise
 
-1. Create a user story for dividing and a user story for multiplication
+1. Create a user story for dividing, another for multiplication and another for subtraction.
 
 2. Perform the Discovery stage to find the scope of the systems behaviour.
 
@@ -28,20 +28,11 @@ Ask yourself and your team if done in a team (Developer, Tester & Product Owner)
 - What is the expected outcome of the behaviour?
 - What is being tested?
 
-3. Perform the Formulation stage by adding a feature file with scenarios for testing division and multiplication with the `Calculator class`, this acceptance criteria is 
+3. Perform the Formulation stage by adding a feature file with scenarios for testing division, multiplication and subtraction with the `Calculator class`.
 
 - Add step definitions for your scenarios
 
-4. Perform the Automation stage by providing an implementation in code for your documented examples
+4. Perform the Automation stage by providing an implementation in code for your documented examples (Your Calculator class and your tests including unit tests)
 
 5. Run your tests and verify they worked. If they worked, you have successfully implemented BDD in a simple way.
 
-### 2. Selenium
-
-Using Selenium, action the following:
-
-1. Create a user story for navigating to and searching for a page on google.
-2. Perform the discovery stage to find the scope of the systems behaviour.
-3. Convert the user story into acceptance criteria using the Formulation stage.
-4. Peform the Automation stage by implementing your documented examples.
-5. Run your tests and verify they worked.

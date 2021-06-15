@@ -1,0 +1,379 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-15T12:43:49.166Z",
+        "line": 20,
+        "name": "3.0 add 4.0 is 7.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "3.0 and 4.0 are added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.0",
+                  "offset": 0
+                },
+                {
+                  "val": "4.0",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.andAreAdded(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the result should be 7.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T12:43:49.231Z",
+        "line": 21,
+        "name": "89.0 add 9.0 is 98.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "89.0 and 9.0 are added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "89.0",
+                  "offset": 0
+                },
+                {
+                  "val": "9.0",
+                  "offset": 9
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.andAreAdded(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the result should be 98.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "98.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T12:43:49.237Z",
+        "line": 22,
+        "name": "9.0 add 89.0 is 98.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "9.0 and 89.0 are added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9.0",
+                  "offset": 0
+                },
+                {
+                  "val": "89.0",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.andAreAdded(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the result should be 98.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "98.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T12:43:49.242Z",
+        "line": 23,
+        "name": "0.0 add 3.0 is 3.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "0.0 and 3.0 are added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.0",
+                  "offset": 0
+                },
+                {
+                  "val": "3.0",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.andAreAdded(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the result should be 3.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T12:43:49.246Z",
+        "line": 24,
+        "name": "0.0 add -3.0 is -3.0",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "0.0 and -3.0 are added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.0",
+                  "offset": 0
+                },
+                {
+                  "val": "-3.0",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.andAreAdded(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the result should be -3.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-3.0",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-15T12:43:49.251Z",
+        "line": 25,
+        "name": "2.5 add 2.5 is 5.00",
+        "description": "",
+        "id": "can-calculate-numbers-correctly?;\u003cleft-operand\u003e-add-\u003cright-operand\u003e-is-\u003cexpected-result\u003e;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "a calculator",
+            "match": {
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.aCalculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "2.5 and 2.5 are added",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5",
+                  "offset": 0
+                },
+                {
+                  "val": "2.5",
+                  "offset": 8
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.andAreAdded(java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the result should be 5.00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5.00",
+                  "offset": 21
+                }
+              ],
+              "location": "com.qa.examples.cucumber_base.step_definitions.CanCalculateNumbersCorrectly.theResultShouldBe(java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Can calculate numbers correctly?",
+    "description": "  To test whether addition, subtraction, multiplication and division return the correct\n  results.\n  \n  Todo:\n  \n  - Implement subtraction\n  - Implement division\n  - Implement multiplication",
+    "id": "can-calculate-numbers-correctly?",
+    "keyword": "Feature",
+    "uri": "classpath:features/can-calculate-numbers-correctly.feature",
+    "tags": []
+  }
+]
