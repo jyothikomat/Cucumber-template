@@ -13,7 +13,7 @@ package com.qa.examples.cucumber_base;
  * 	<li>Division</li>
  * </ul>
  * 
- * @author morga
+ * @author morgan
  */
 public class Calculator {
 
@@ -22,7 +22,8 @@ public class Calculator {
 	}
 	
 	public double subtract(double a, double b) {
-		return a - b;
+		// TODO: Implement
+		return 0.0d;
 	}
 	
 	public double divide(double a, double b) {
