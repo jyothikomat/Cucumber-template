@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-06-15T12:43:49.166Z",
+        "start_timestamp": "2021-06-15T17:05:44.728Z",
         "line": 20,
         "name": "3.0 add 4.0 is 7.0",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 999500,
+              "duration": 11992800,
               "status": "passed"
             },
             "line": 14,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1001000,
+              "duration": 1998600,
               "status": "passed"
             },
             "line": 15,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1000700,
+              "duration": 1998700,
               "status": "passed"
             },
             "line": 16,
@@ -66,7 +66,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.231Z",
+        "start_timestamp": "2021-06-15T17:05:44.924Z",
         "line": 21,
         "name": "89.0 add 9.0 is 98.0",
         "description": "",
@@ -76,6 +76,7 @@
         "steps": [
           {
             "result": {
+              "duration": 999000,
               "status": "passed"
             },
             "line": 14,
@@ -87,6 +88,7 @@
           },
           {
             "result": {
+              "duration": 1998100,
               "status": "passed"
             },
             "line": 15,
@@ -126,7 +128,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.237Z",
+        "start_timestamp": "2021-06-15T17:05:44.953Z",
         "line": 22,
         "name": "9.0 add 89.0 is 98.0",
         "description": "",
@@ -147,6 +149,7 @@
           },
           {
             "result": {
+              "duration": 3996600,
               "status": "passed"
             },
             "line": 15,
@@ -186,7 +189,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.242Z",
+        "start_timestamp": "2021-06-15T17:05:44.987Z",
         "line": 23,
         "name": "0.0 add 3.0 is 3.0",
         "description": "",
@@ -196,7 +199,7 @@
         "steps": [
           {
             "result": {
-              "duration": 999400,
+              "duration": 998800,
               "status": "passed"
             },
             "line": 14,
@@ -247,7 +250,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.246Z",
+        "start_timestamp": "2021-06-15T17:05:45.012Z",
         "line": 24,
         "name": "0.0 add -3.0 is -3.0",
         "description": "",
@@ -257,6 +260,7 @@
         "steps": [
           {
             "result": {
+              "duration": 2003200,
               "status": "passed"
             },
             "line": 14,
@@ -268,6 +272,7 @@
           },
           {
             "result": {
+              "duration": 995900,
               "status": "passed"
             },
             "line": 15,
@@ -289,7 +294,6 @@
           },
           {
             "result": {
-              "duration": 999800,
               "status": "passed"
             },
             "line": 16,
@@ -308,7 +312,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-15T12:43:49.251Z",
+        "start_timestamp": "2021-06-15T17:05:45.035Z",
         "line": 25,
         "name": "2.5 add 2.5 is 5.00",
         "description": "",
@@ -318,6 +322,7 @@
         "steps": [
           {
             "result": {
+              "duration": 3997800,
               "status": "passed"
             },
             "line": 14,
@@ -329,6 +334,7 @@
           },
           {
             "result": {
+              "duration": 997700,
               "status": "passed"
             },
             "line": 15,
@@ -350,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 1001100,
+              "duration": 998900,
               "status": "passed"
             },
             "line": 16,
